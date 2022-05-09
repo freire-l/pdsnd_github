@@ -30,3 +30,9 @@ https://www.w3schools.com/python/pandas/pandas_csv.asp
 - Creating more friendly user experience
 - Add a GUI
 
+
+### Libraries Used
+- time
+- pandas
+- numoy
+
