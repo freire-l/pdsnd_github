@@ -25,3 +25,8 @@ https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.ht
 https://pandas.pydata.org/pandas-docs/stable/reference/index.html
 https://www.w3schools.com/python/pandas/pandas_csv.asp
 
+
+### Next Steps
+- Creating more friendly user experience
+- Add a GUI
+
