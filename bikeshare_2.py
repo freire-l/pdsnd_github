@@ -197,15 +197,15 @@ def raw_data(df):
     curr_row = 0
     
     while True:
-        answer =  str(input("Do you want to see the first 5 lines of raw data? (Y/N): ")).lower()
-        if(answer == 'y' or answer == 'n'):
+        answer =  str(input("Do you want to see the first 5 lines of raw data? yes/no: ")).lower()
+        if(restart == 'yes' or restart == 'no'):
             break
         else:
             print('Please enter a valid response\n')
 
 
     while True:
-        if(answer == 'n'):
+        if(answer == 'no'):
             break
         else:
             print(df.iloc[curr_row:curr_row+5,:])
@@ -214,12 +214,12 @@ def raw_data(df):
                 break
             else:
                 while True:
-                    next =  str(input("Do you want to see the next 5 lines of raw data? (Y/N): ")).lower()
-                    if(next == 'y' or next == 'n'):
+                    next =  str(input("Do you want to see the next 5 lines of raw data? yes/no: ")).lower()
+                    if(restart == 'yes' or restart == 'no'):
                         break
                     else:
                         print('Please enter a valid response\n')
-                if (next == 'y'):
+                if (next == 'yes'):
                     curr_row += 5
                 else:
                     break
@@ -239,13 +239,13 @@ def main():
         user_stats(df, city)
 
         while True:
-            restart = input('\nWould you like to restart? Yes/No\n').lower()
+            restart = input('\nWould you like to restart? yes/no\n').lower()
             if(restart == 'yes' or restart == 'no'):
                 break
             else:
                 print('Please enter a valid response\n')
 
-        if restart != 'yes':
+        if restart == 'no':
             print('-'*40)
             break
 
