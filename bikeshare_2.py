@@ -2,6 +2,20 @@ import time
 import pandas as pd
 import numpy as np
 
+"""
+    Summary of functions
+    
+    get_filters() - Asks user to specify a city, month, and day to analyze.
+    load_data(city, month, day) - Loads data for the specified city and filters by month and day if applicable.
+    time_stats(df) - Displays statistics on the most frequent times of travel.
+    station_stats(df) - Displays statistics on the most popular stations and trip.
+    trip_duration_stats(df) - Displays statistics on the total and average trip duration.
+    user_stats(df, city) - Displays statistics on bikeshare users.
+    raw_data(df) - Gets raw data if the user wants to see it
+    
+"""
+
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
