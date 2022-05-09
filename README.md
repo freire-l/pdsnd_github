@@ -36,3 +36,8 @@ https://www.w3schools.com/python/pandas/pandas_csv.asp
 - pandas
 - numoy
 
+### Available Filters
+- City
+- Month
+- Day of the week
+
