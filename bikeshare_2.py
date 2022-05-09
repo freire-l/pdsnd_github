@@ -231,7 +231,7 @@ def main():
             else:
                 print('Please enter a valid response\n')
 
-        if restart != 'yes':
+        if restart == 'no':
             print('-'*40)
             break
 
